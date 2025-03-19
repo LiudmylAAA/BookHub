@@ -90,3 +90,5 @@ create table orders (
     foreign key (city_id) references cities(city_id) on delete restrict on update cascade,
     foreign key (branch_id) references branches(branch_id) on delete restrict on update cascade
 );
+
+
