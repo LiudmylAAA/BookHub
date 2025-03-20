@@ -1,4 +1,6 @@
 
+create database if not exists bookhub_db;
+use bookhub_db;
 create table if not exists categories (
     category_id int auto_increment primary key,
     name varchar(255) not null
